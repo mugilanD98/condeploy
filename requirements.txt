@@ -6,4 +6,4 @@ pandas
 scikit-learn 
 scipy 
 seaborn
-pickle
+pickle-mixin
