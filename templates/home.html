@@ -1,0 +1,23 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+    <center>
+        
+        <h1> Concrete compressive strength prediction </h1>
+        <br>
+        <br>
+        <h2>
+        <form method="POST", action="{{url_for('home')}}">
+            <b> Cement : <input type="text", name='a', placeholder="kg m^3"> <br><br>
+                Blast Furnace Slag : <input type="text", name='b', placeholder="kg m^3"> <br><br>
+                Fly Ash : <input type="text", name='c', placeholder="kg m^3"> <br><br>
+                Superplasticizer : <input type="text", name='d', placeholder="kg m^3"> <br><br>
+                Age : <input type="text", name='e', placeholder="Days"> <br><br>
+            <input type="submit" , value='predict' >
+        </form>    
+
+        </h2>
+    </center>
+    </body>
+</html>
+    
