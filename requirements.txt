@@ -5,4 +5,5 @@ numpy
 pandas 
 scikit-learn 
 scipy 
-seaborn 
+seaborn
+pickle
